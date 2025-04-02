@@ -21,8 +21,5 @@ CREATE TABLE usuarios (
     contrasena VARCHAR(255) NOT NULL  
 );
 
-INSERT INTO usuarios (usuario, correo, contrasena)
-VALUES ('edu', 'edu@gmail.com', '060622');
-
 
 SELECT * FROM usuarios;
